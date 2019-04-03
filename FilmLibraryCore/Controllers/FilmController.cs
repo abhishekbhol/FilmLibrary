@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using FilmLibraryCore.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.IO;
 
 namespace FilmLibraryCore.Controllers
 {
@@ -58,15 +59,18 @@ namespace FilmLibraryCore.Controllers
 
             Console.WriteLine(data);
 
-            if (data.Poster != "N.A")
+            if (data != null && data.Poster != null && data.Poster != "N.A")
             {
                 data.LocalImageName = Regex.Replace(data.Title, @"[^0-9a-zA-Z]+", "") + ".jpg";
 
                 var imagePath = "wwwroot//images//" + data.LocalImageName;
 
-                using (WebClient client = new WebClient())
+                if (!System.IO.File.Exists(imagePath))
                 {
-                    client.DownloadFile(new Uri(data.Poster), imagePath);
+                    using (WebClient client = new WebClient())
+                    {
+                        client.DownloadFile(new Uri(data.Poster), imagePath);
+                    }
                 }
             }
 
