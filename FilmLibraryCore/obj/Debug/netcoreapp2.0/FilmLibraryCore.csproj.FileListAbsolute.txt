@@ -1,0 +1,11 @@
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\bin\Debug\netcoreapp2.0\FilmLibraryCore.deps.json
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\bin\Debug\netcoreapp2.0\FilmLibraryCore.runtimeconfig.json
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\bin\Debug\netcoreapp2.0\FilmLibraryCore.runtimeconfig.dev.json
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\bin\Debug\netcoreapp2.0\FilmLibraryCore.dll
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\bin\Debug\netcoreapp2.0\FilmLibraryCore.pdb
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\obj\Debug\netcoreapp2.0\FilmLibraryCore.csproj.CoreCompileInputs.cache
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\obj\Debug\netcoreapp2.0\FilmLibraryCore.AssemblyInfoInputs.cache
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\obj\Debug\netcoreapp2.0\FilmLibraryCore.AssemblyInfo.cs
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\obj\Debug\netcoreapp2.0\FilmLibraryCore.dll
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\obj\Debug\netcoreapp2.0\FilmLibraryCore.pdb
+D:\Projects\CSharp\FilmLibraryCore\FilmLibraryCore\obj\Debug\netcoreapp2.0\FilmLibraryCore.csprojResolveAssemblyReference.cache
